@@ -1,11 +1,12 @@
 body{
 	font-family: 'Source Sans Pro', sans-serif;
+	background-repeat: no-repeat;
+	background-size: cover;
 
 }
 
 h1{
 	font-family: 'Montserrat Subrayada', sans-serif;
-
 	font-size:100px;
 	padding-top:20px;
 }
@@ -27,4 +28,5 @@ div{
 	width:70%;
 	background:#ecf0f1;
 	opacity: 0.75;	
+	
 }
