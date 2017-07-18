@@ -1,32 +1,114 @@
-body{
-	font-family: 'Source Sans Pro', sans-serif;
-	background-repeat: no-repeat;
-	background-size: cover;
-
+@font-face{
+    font-family: "break";
+    src: url('../assets/Break Light.ttf');
 }
-
-h1{
-	font-family: 'Montserrat Subrayada', sans-serif;
-	font-size:100px;
-	padding-top:20px;
+@font-face{
+    font-family: "kirvy";
+    src: url('../assets/Kirvy-Light.otf');
 }
-
-h3{
-	font-size:40px;
-	margin-bottom:80px;
+@media screen and (max-width: 400px) {
+      #myName{
+            font-size: 10vw;
+      }
+      #myDetails{
+            font-size:4vw;
+      }
 }
-h5{
-	font-size:30px;
-	padding-bottom:40px;
+@media screen and (max-width: 480px) {
+      #myName{
+            font-size: 8vw;
+      }
+      #myDetails{
+            font-size:3vw;
+      }
 }
-#codeIcon{
-	font-weight:bolder;	
+@media screen and (min-width: 481px) {
+      #myName{
+            font-size: 5vw;
+      }
+      #myDetails{
+            font-size:1.5vw;
+      }
 }
-div{
-	margin-top:100px;
-	border-radius:10px;	
-	width:70%;
-	background:#ecf0f1;
-	opacity: 0.75;	
-	
+p{
+      font-family:kirvy;
+}
+#intro{
+      background: url('../assets/introBG.jpg') no-repeat center center fixed;
+      height:100vh;
+      width:100%;
+      background-size: cover;
+}
+#introLayer{
+      background-color: rgba(0, 0, 0, 0.9);
+      width:100%;
+      height:100%;
+      padding-top: 35vh;
+      position:relative;
+}
+#nameDiv{
+      animation-duration: 2.5s;
+}
+#myName{
+      white-space: nowrap;
+      font-family:break;
+      color:white;
+      margin-bottom:-20px;
+}
+#introHR{
+      width:40%;
+      border: none;
+      height: 0.5px;
+      background-color: #333;
+}
+#myDetails{
+      word-wrap: normal;
+      margin-top:30px;
+      color:white;
+      color:#9a9999;
+}
+#social{
+      display: flex;
+      flex-direction:row;
+      justify-content: center;
+      align-items: center;
+      font-size: 25px;
+      position:absolute;
+      top: 90vh;
+      left:0;
+      right:0;
+      bottom:5px;
+      animation-delay: 2s;
+      animation-duration: 2s;
+}
+#social p {
+      padding-top: 3px;
+}
+.socialLinks{
+      padding-bottom: 5px;
+      animation-duration:50s;
+      animation-delay: 4s;
+      animation-iteration-count: 3;
+}
+#projectLine{
+      color:#9a9999;
+      white-space: nowrap;
+      position:absolute;
+      top: 85vh;
+      left:0;
+      right:0;
+      bottom:5px;
+      animation-delay: 3s;
+}
+a:link{
+      color: white !important;
+}
+a:hover{
+      color: white !important;
+}
+a:visited{
+      color: white !important;
+}
+a:active{
+      color: white !important;
 }
