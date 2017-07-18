@@ -13,6 +13,9 @@
       #myDetails{
             font-size:4vw;
       }
+      #introlayer{
+            background-color: rgba(0, 0, 0, 0.6);
+      }
 }
 @media screen and (max-width: 480px) {
       #myName{
@@ -21,6 +24,9 @@
       #myDetails{
             font-size:3vw;
       }
+      #introlayer{
+            background-color: rgba(0, 0, 0, 0.7);
+      }
 }
 @media screen and (min-width: 481px) {
       #myName{
@@ -28,6 +34,9 @@
       }
       #myDetails{
             font-size:1.5vw;
+      }
+      #introlayer{
+            background-color: rgba(0, 0, 0, 0.9);
       }
 }
 p{
@@ -40,7 +49,6 @@ p{
       background-size: cover;
 }
 #introLayer{
-      background-color: rgba(0, 0, 0, 0.9);
       width:100%;
       height:100%;
       padding-top: 35vh;
