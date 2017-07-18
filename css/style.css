@@ -16,6 +16,9 @@
       #introlayer{
             background-color: rgba(0, 0, 0, 0.8);
       }
+      #introHR{
+            background-color: #898989;
+      }
 }
 @media screen and (max-width: 480px) {
       #myName{
@@ -27,6 +30,9 @@
       #introlayer{
             background-color: rgba(0, 0, 0, 0.8);
       }
+      #introHR{
+            background-color: #898989;
+      }
 }
 @media screen and (min-width: 481px) {
       #myName{
@@ -37,6 +43,9 @@
       }
       #introlayer{
             background-color: rgba(0, 0, 0, 0.9);
+      }
+      #introHR{
+            background-color: #333;
       }
 }
 p{
@@ -67,7 +76,6 @@ p{
       width:40%;
       border: none;
       height: 0.5px;
-      background-color: #333;
 }
 #myDetails{
       word-wrap: normal;
