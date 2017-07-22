@@ -16,9 +16,6 @@
       #introlayer{
             background-color: rgba(0, 0, 0, 0.6);
       }
-      #introHR{
-            background-color: #898989;
-      }
 }
 @media screen and (max-width: 480px) {
       #myName{
