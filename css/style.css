@@ -23,7 +23,7 @@
             top: 87vh;
       }
       #projectLine{
-            top: 82vh;
+            top: 80vh;
       }
 }
 @media screen and (max-width: 480px) {
@@ -43,7 +43,7 @@
             top: 87vh;
       }
       #projectLine{
-            top: 82vh;
+            top: 80vh;
       }
 }
 @media screen and (min-width: 481px) {
