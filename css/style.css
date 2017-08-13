@@ -19,6 +19,12 @@
       #introHR{
             border-color: #6f6f6f;
       }
+      #social{
+            top: 87vh;
+      }
+      #projectLine{
+            top: 82vh;
+      }
 }
 @media screen and (max-width: 480px) {
       #myName{
@@ -33,6 +39,12 @@
       #introHR{
             border-color: #6f6f6f;
       }
+      #social{
+            top: 87vh;
+      }
+      #projectLine{
+            top: 82vh;
+      }
 }
 @media screen and (min-width: 481px) {
       #myName{
@@ -46,6 +58,12 @@
       }
       #introHR{
             border-color: #333;
+      }
+      #social{
+            top: 90vh;
+      }
+      #projectLine{
+            top: 85vh;
       }
 }
 p{
@@ -89,7 +107,6 @@ p{
       align-items: center;
       font-size: 25px;
       position:absolute;
-      top: 90vh;
       left:0;
       right:0;
       bottom:5px;
@@ -109,7 +126,6 @@ p{
       color:#9a9999;
       white-space: nowrap;
       position:absolute;
-      top: 85vh;
       left:0;
       right:0;
       bottom:5px;
