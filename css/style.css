@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200i');
-
 @font-face{
     font-family: "break";
     src: url('../assets/Break Light.ttf');
@@ -8,14 +6,6 @@
     font-family: "kirvy";
     src: url('../assets/Kirvy-Light.otf');
 }
-@font-face{
-    font-family: "kirvyThin";
-    src: url('../assets/Kirvy-Thin.otf');
-}
-@font-face{
-    font-family: "infin";
-    src: url('../assets/Infinity.ttf');
-}
 @media screen and (max-width: 400px) {
       #myName{
             font-size: 10vw;
@@ -23,10 +13,7 @@
       #myDetails{
             font-size:4vw;
       }
-      .introLayer{
-            background-color: rgba(0, 0, 0, 0.6);
-      }
-      .introLayerSecond{
+      #introlayer{
             background-color: rgba(0, 0, 0, 0.6);
       }
       #introHR{
@@ -37,9 +24,6 @@
       }
       #projectLine{
             top: 80vh;
-      }
-      #myProjects{
-            font-size: 9.5vw;
       }
 }
 @media screen and (max-width: 480px) {
@@ -49,10 +33,7 @@
       #myDetails{
             font-size:3vw;
       }
-      .introLayer{
-            background-color: rgba(0, 0, 0, 0.6);
-      }
-      .introLayerSecond{
+      #introlayer{
             background-color: rgba(0, 0, 0, 0.6);
       }
       #introHR{
@@ -64,9 +45,6 @@
       #projectLine{
             top: 80vh;
       }
-      #myProjects{
-            font-size: 7.5vw;
-      }
 }
 @media screen and (min-width: 481px) {
       #myName{
@@ -75,10 +53,7 @@
       #myDetails{
             font-size:1.5vw;
       }
-      .introLayer{
-            background-color: rgba(0, 0, 0, 0.8);
-      }
-      .introLayerSecond{
+      #introlayer{
             background-color: rgba(0, 0, 0, 0.8);
       }
       #introHR{
@@ -90,26 +65,20 @@
       #projectLine{
             top: 85vh;
       }
-      #myProjects{
-            font-size: 4.5vw;
-      }
-}
-body{
-      overflow: hidden;
 }
 p{
       font-family:kirvy;
 }
-.intro{
-      background: url('../assets/1.jpg') no-repeat center center fixed;
+#intro{
+      background: url('../assets/introBG.jpg') no-repeat center center fixed;
       height:100vh;
       width:100%;
       background-size: cover;
 }
-.introLayer{
+#introLayer{
       width:100%;
       height:100%;
-      padding-top: 32vh;
+      padding-top: 35vh;
       position:relative;
 }
 #nameDiv{
@@ -122,8 +91,7 @@ p{
       margin-bottom:-20px;
 }
 #introHR{
-      border-color:#2ecc71;
-      width:30%;
+      width:40%;
       height: 0.5px;
 }
 #myDetails{
@@ -147,76 +115,31 @@ p{
 }
 #social p {
       padding-top: 3px;
-      padding-bottom: 27px;
 }
 .socialLinks{
-      padding-bottom: 30px;
+      padding-bottom: 5px;
       animation-duration:50s;
       animation-delay: 4s;
       animation-iteration-count: 3;
 }
 #projectLine{
-      color:white;
+      color:#9a9999;
       white-space: nowrap;
       position:absolute;
-      top:85vh;
       left:0;
       right:0;
-      bottom:0;
+      bottom:5px;
       animation-delay: 3s;
 }
-#projectDivider{
-      padding-left: 2.5px;
-      padding-right: 2.5px;
-}
 a:link{
-      color: #9a9999 !important;
+      color: white !important;
 }
 a:hover{
-      color: #9a9999 !important;
+      color: white !important;
 }
 a:visited{
-      color: #9a9999 !important;
+      color: white !important;
 }
 a:active{
-      color: #9a9999 !important;
+      color: white !important;
 }
-#downArrow{
-      color:#2ecc71;
-      animation-delay: 1s;
-      animation-iteration-count: 2;
-      animation-duration: 3s;
-      font-size: 2em;
-      position: absolute;
-      left:49vw;
-      right:50vw;
-      bottom:5px;
-      top:90vh;
-}
-.introLayerSecond{
-      width:100%;
-      height:100%;
-      position:relative;
-}
-#bgSetter{
-      height: auto;
-}
-#myProjects{
-      border: 10px #2ecc71 inset;
-      white-space: nowrap;
-      font-family: 'Source Sans Pro', sans-serif;
-      color:white;
-      margin-top: 30vh;
-      margin-bottom:40vh;
-      padding-top:70px;
-      padding-bottom:70px;
-      padding-left:150px;
-      padding-right:150px;
-}
-#projectContainer{
-      display: flex;
-      flex-flow: row;
-      justify-content: center;
-      align-items: center;
-}
-.projectBox{}
