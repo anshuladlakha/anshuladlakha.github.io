@@ -21,10 +21,11 @@
       }*/
       #social{
             top: 83vh;
+ 	    font-size: 18px;	
       }
       #projectLine{
             top: 80vh;
-            font-size: 10px;
+            font-size: 12px;
       }
 }
 @media screen and (max-width: 480px) {
@@ -42,10 +43,11 @@
       }*/
       #social{
             top: 83vh;
+ 	    font-size: 18px;	
       }
       #projectLine{
             top: 80vh;
-            font-size: 10px;
+            font-size: 12px;
       }
 }
 @media screen and (min-width: 481px) {
@@ -63,6 +65,7 @@
       }*/
       #social{
             top: 87vh;
+      	    font-size: 23px;
       }
       #projectLine{
             top: 85vh;
@@ -109,7 +112,6 @@ p{
       flex-direction:row;
       justify-content: center;
       align-items: center;
-      font-size: 23px;
       position:absolute;
       left:0;
       right:0;
